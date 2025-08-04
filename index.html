@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Coffee</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar section_content">
+            <a href="#" class="nav_logo">
+                <h2 class="logo_text">☕ Coffee</h2>
+            </a>
+            <ul class="nav_menu">
+                <button class="fas fa-times" id="menu_close_button"></button>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#about" class="nav_link">About</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu" class="nav_link">Menu</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials" class="nav_link">Testimonials</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#gallery" class="nav_link">Gallery</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link">Contact</a>
+                </li>
+            </ul>
+        <button class="fas fa-bars" id="menu_open_button"></button>    
+        </nav>
+    </header>
+    <main>
+        <section class="hero_section">
+            <div class="section_content">
+            <div class="hero_details">
+            <h2 class="title">Best Coffee</h2>
+            <h3 class="subtitle">Make your day great with our special coffee!</h3>
+            <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+            <div class="buttons">
+                <a href="#menu" class="button order_now">Order Now</a>
+                <a href="#contact" class="button contact_us">Contact us</a>
+            </div>
+            </div> 
+            <div class="hero_image_wrapper">
+                <img src="assets/coffee-hero-section.png" alt="Hero" class="hero_image">
+            </div>           
+            </div>
+        </section>
+
+        <section class="about_section" id="about">
+            <div class="section_content">
+                <div class="about_image_wrapper">
+                    <img src="assets/about-image.jpg" alt="About" class="about_img">
+                </div>
+                <div class="about_details">
+                    <h2 class="section_title">About Us</h2>
+                    <p class="text">At Coffee House in Siliguri, West Bengal, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.</p>
+                    <div class="social_link_list">
+                        <a href="#" class="social_link"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social_link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu_section" id="menu">
+            <h2 class="section_title">Our Menu</h2>
+            <div class="section_content">
+                <ul class="menu_list">
+                <li class="menu_item">
+                    <img src="assets/hot-beverages.png" alt="Hot Beverages" class="menu_image">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                </li>
+                <li class="menu_item">
+                    <img src="assets/cold-beverages.png" alt="Cold Beverages" class="menu_image">
+                    <h3 class="name">Cold Beverages</h3>
+                    <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                </li>
+                <li class="menu_item">
+                    <img src="assets/refreshment.png" alt="Refreshment" class="menu_image">
+                    <h3 class="name">Refreshments</h3>
+                    <p class="text">Fruity and Icy refreshing drink to mke you feel refresh.</p>
+                </li>
+                <li class="menu_item">
+                    <img src="assets/special-combo.png" alt="Special Combo" class="menu_image">
+                    <h3 class="name">Special Combos</h3>
+                    <p class="text">Your favourite eating and drinking combinations.</p>
+                </li>
+                <li class="menu_item">
+                    <img src="assets/desserts.png" alt="Dessert" class="menu_image">
+                    <h3 class="name">Dessert</h3>
+                    <p class="text">Satiate your palette and take you on a culinary treat.</p>
+                </li>
+                <li class="menu_item">
+                    <img src="assets/burger-frenchfries.png" alt="burger & French fries" class="menu_image">
+                    <h3 class="name">Burger & French Fries</h3>
+                    <p class="text">Quick bites to satisfy your small size hunger.</p>
+                </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="testimonials_section" id="testimonials">
+            <h2 class="section_title">Testimonials</h2>
+            <div class="section_content">
+                <div class="slider_container swiper">
+                    <div class="slider_wrapper">
+                        <ul class="testimonials_list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-1.jpg" alt="User" class="user_image">
+                                <h3 class="name">Kritika Singh</h3>
+                                <i class="feedback">"Loved the French toast. Perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-2.jpg" alt="User" class="user_image">
+                                <h3 class="name">Sameer Patel</h3>
+                                <i class="feedback">"Hands down the best pancakes I've had in the city. Will definitely be back!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-3.jpg" alt="User" class="user_image">
+                                <h3 class="name">Aarav Mehta</h3>
+                                <i class="feedback">"Friendly staff, delicious desserts, and the vibe is perfect for reading or catching up with friends."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-4.jpg" alt="User" class="user_image">
+                                <h3 class="name">Sneha Kapoor</h3>
+                                <i class="feedback">"Such a cozy little spot. Great playlist, fast Wi-Fi, and even better iced lattes."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-5.jpg" alt="User" class="user_image">
+                                <h3 class="name">Mehul Jain</h3>
+                                <i class="feedback">"Tried their signature cold brew—game changer. Highly recommend for coffee lovers"</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery_section" id="gallery">
+            <h2 class="section_title">Gallery</h2>
+            <div class="section_content">
+                <ul class="gallery_list">
+                    <li class="gallery_item">
+                        <img src="assets/gallery-1.jpg" alt="Gallery" class="gallery_image">
+                    </li>
+                    <li class="gallery_item">
+                        <img src="assets/gallery-2.jpg" alt="Gallery" class="gallery_image">
+                    </li>
+                    <li class="gallery_item">
+                        <img src="assets/gallery-3.jpg" alt="Gallery" class="gallery_image">
+                    </li>
+                    <li class="gallery_item">
+                        <img src="assets/gallery-4.jpg" alt="Gallery" class="gallery_image">
+                    </li>
+                    <li class="gallery_item">
+                        <img src="assets/gallery-5.jpg" alt="Gallery" class="gallery_image">
+                    </li>
+                    <li class="gallery_item">
+                        <img src="assets/gallery-6.jpg" alt="Gallery" class="gallery_image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact_section" id="contact">
+            <h2 class="section_title">Contact Us</h2>
+            <div class="section_content">
+                <ul class="contact_info_list">
+                    <li class="contact_info">
+                       <i class="fa-solid fa-location-dot"></i>
+                       <p>123 Sevoke Road, Siliguri, West Bengal</p> 
+                    </li>
+                    <li class="contact_info">
+                       <i class="fa-regular fa-envelope"></i>
+                       <p>info@coffeecafe.com</p> 
+                    </li>
+                    <li class="contact_info">
+                       <i class="fa-solid fa-phone"></i>
+                       <p>+91 6294394212</p> 
+                    </li>
+                    <li class="contact_info">
+                       <i class="fa-solid fa-alarm-clock"></i>
+                       <p>Tuesday - Sunday: 4:00 PM - 00:00 AM</p> 
+                    </li>
+                    <li class="contact_info">
+                       <i class="fa-solid fa-alarm-clock"></i>
+                       <p>Monday: Closed</p> 
+                    </li>
+                    <li class="contact_info">
+                       <i class="fa-solid fa-globe"></i>
+                       <p>Should be updated.</p> 
+                    </li>
+                </ul>
+
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Your name" class="form_input" required>
+                    <input type="email" placeholder="Your email" class="form_input" required> 
+                    <textarea placeholder="Your message" class="form_input" required></textarea>
+                    <button class="submit_button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer_section">
+            <div class="section_content">
+                <p class="copyright_text">0 2025 Coffee Shop</p>
+
+                <div class="social_link_list">
+                        <a href="#" class="social_link"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" class="social_link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social_link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <p class="policy_text">
+                        <a href="#" class="policy_link">Privacy Policy</a>
+                        <span class="separator">●</span>
+                        <a href="#" class="policy_link">Refund Policy</a>
+                    </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
