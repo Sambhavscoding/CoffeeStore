@@ -19,6 +19,12 @@ pipeline {
             }
         }
 
+        stage('Trivy Scan') {
+    steps {
+        sh 'trivy image --severity HIGH,CRITICAL $IMAGE_NAME:latest'
+    }
+}
+
         stage('Push to Docker Hub') {
             steps {
                 withCredentials([usernamePassword(
